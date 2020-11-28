@@ -1,0 +1,125 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(76, 90, 112),
+    rgb(69, 82, 102),
+    rgb(63, 74, 92),
+    rgb(56, 66, 82),
+    rgb(49, 58, 72),
+    rgb(43, 50, 62),
+    rgb(36, 41, 52),
+    rgb(30, 33, 42),
+    rgb(23, 25, 32),
+    rgb(16, 17, 22),
+    rgb(10, 9, 12),
+    rgb(3, 1, 2)
+  );
+}
+#userCard {
+  width: 20%;
+  height: 50vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15vh;
+}
+
+#userCard > div {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.mainBlock {
+  height: 60%;
+  background-image: url(https://prabook.com/web/show-photo.jpg?id=22691);
+  object-fit: contain;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+  background-blend-mode: color;
+  background-color: rgba(177, 171, 171, 0.404);
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0px 0px 68px 4px rgba(0, 0, 0, 1);
+  z-index: 3;
+}
+
+.userName {
+  padding-bottom: 20px;
+}
+
+.mainBlock h3 {
+  color: white;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.mainBlock p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 8px;
+  padding-top: 5px;
+}
+
+.infoBlock {
+  width: 80%;
+  margin: 0 auto;
+  height: 20%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #eaeaeb;
+  justify-content: space-around;
+  align-content: center;
+  z-index: 2;
+  box-shadow: 0px 0px 68px 4px rgba(0, 0, 0, 1);
+}
+
+.infoBlock > div {
+  text-align: center;
+  padding: 15px;
+}
+
+.infoBlock h3 {
+  font-size: 12px;
+}
+
+.infoBlock p {
+  font-size: 6px;
+  color: rgb(136, 133, 133);
+}
+
+.followBlock {
+  height: 12%;
+  width: 60%;
+  margin: 0 auto;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.followBlock button {
+  width: 100%;
+  height: 100%;
+  background-color: #e22f76;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 7px;
+  letter-spacing: 2px;
+  z-index: 1;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-weight: bold;
+}
+
+.followBlock button:focus {
+  border: none;
+}
